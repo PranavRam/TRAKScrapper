@@ -1,0 +1,19 @@
+{
+  "name": "TRAKScrapper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Pranav Ram",
+  "license": "MIT",
+  "dependencies": {
+    "accounting": "^0.4.1",
+    "axios": "^0.16.2",
+    "moment": "^2.18.1"
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.1",
+    "tape": "^4.6.3"
+  },
+  "scripts": {
+    "test": "tape tests/**/*.js"
+  }
+}
